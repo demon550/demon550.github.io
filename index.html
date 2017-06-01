@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>A title</title>
+    
+    <link href="reset.css" rel="stylesheet" type="text/css" media="screen">
+    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+    <style type="text/css">
+        @link-color{
+            color:  white;
+        }
+        @font-face{
+            font-family: myFont;
+            //src: url(Links\Font\proxima nova\ProximaNova-Regular.otf);
+        }
+        
+        .parent{
+            //display:inline-block;
+            // *display:inline;zoom:1;
+            //margin:0px;outline:none;
+            //vertical-align: top;
+        }
+        
+        .row.content{
+            height: 574px;
+        }
+        
+        .sidenav{
+            background: #d48900;
+            height: 100%;
+            border-radius: 0 !important;
+        }
+        
+        .nopadding {
+            padding: 0 !important;
+            margin: 0 !important;
+            
+            border-radius: 0 !important;
+            border-style: none!important;
+        }
+        
+        .nopadding > [class*='col-'] {
+            padding-right:0;
+            padding-left:0;
+        }
+        
+        .well.nav-pills{
+            border-radius: 0 !important;
+        }
+        
+        .sideMenu{
+            background: #e0b14d;
+            color: white;
+        }
+        
+        .topBar{
+            color: white;
+            background-image: url(Cubes%20background.jpg);
+            background-size: cover;
+            
+        }
+        
+        .midContent{
+            background-image: url(shutterstock_535167172.jpg);
+            background-size: cover;
+            
+            padding-left: 40px;
+        }
+        
+        .progress {
+            position: relative;
+        }
+        
+        .progress-bar-warning{
+            color: #08395c;
+            height: 20px;
+        }
+        .percentage{
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding-right: 10px;
+        }
+        
+    </style>
+    
+    
+    
+</head>
+
+<body class="parent">
+    
+    
+    <div class="row content container-fluid nopadding" >
+        <div class="col-sm-3 nopadding sidenav">
+            <div class="well" style="background-color: #ffffff;">
+                <img src="Cubes%20logo.png" width="210" />
+            </div>
+            <div class=" sideMenu ">
+                <ul class="nav nav-pills nav-stacked" >
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Insights</a></li>
+                    <li><a href="#">Learn More</a></li>
+                     <li><a href="#">Comment</a></li>
+                </ul>
+            </div>
+        </div>
+        
+<!---------------------------------------------------------------------------------->
+        
+        <div class="col-sm-9 nopadding" >
+            <div class="topBar panel panel-primary">
+                <div class="panel-body">
+                    <h3>QUESTION <span style="color:#ffa037">1</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+                    <hr style="border-top: 2px solid #ffa037; width:97%">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+
+<!------------------------------------------------------------------------------------>
+            <div class="midContent">
+                <h4>a) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</h4>
+
+                <hr style="border-top: 2px solid #08395c; width:95%">
+
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Company 1</td>
+                            <td><span class="glyphicon glyphicon-ok-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Company 2</td>
+                            <td><span class="glyphicon glyphicon-ok-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Company 3</td>
+                            <td><span class="glyphicon glyphicon-ok-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Company 4</td>
+                            <td><span class="glyphicon glyphicon-ok-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <td>None</td>
+                            <td><span class="glyphicon glyphicon-ok-circle"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+<!------------------------------------------------------------------------------------>
+            
+            <div class="panel panel-primary nopadding" style="background-color:#0c4490">
+                <div class="panel-body">
+                    <div class="col-sm-9">
+                        <div class="progress">
+                            <div class="progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"style="width:10%">
+                                <div class="percentage">10%</div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <button type="button" class="btn btn-info">NEXT</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+       
+    
+</body>
+    
+</html>
